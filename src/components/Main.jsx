@@ -11,7 +11,7 @@ const Main = () => {
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-black/50">
         <div className="max-width-[700px] m-auto h-full w-full flex flex flex-col justify-center items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-white">
+          <h1 className="sm:text-5xl text-4xl font-bold text-white text-center">
             I'm Olya Ponomarova
           </h1>
           <h2 className="flex sm-text-3xl text-2xl p-4 text-white">
