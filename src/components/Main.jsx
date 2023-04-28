@@ -1,13 +1,14 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import mainpage from "../images/mainpage.jpg";
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left "
-        src="./src/images/main-page.jpg"
+        src={mainpage}
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-black/50">
         <div className="max-width-[700px] m-auto h-full w-full flex flex flex-col justify-center items-center">
