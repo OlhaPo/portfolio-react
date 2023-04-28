@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { AiOutlineMenuUnfold, AiOutlineHome } from "react-icons/ai";
-import { GrGallery, GrContact } from "react-icons/gr";
+import { GrContact, GrProjects } from "react-icons/gr";
 import { MdPerson3 } from "react-icons/md";
 
 const Sidenav = () => {
@@ -30,7 +30,7 @@ const Sidenav = () => {
             href="#work"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <GrGallery size={20} />
+            <GrProjects size={20} />
             <span className="pl-4">Work</span>
           </a>
           <a
@@ -65,7 +65,7 @@ const Sidenav = () => {
             href="#work"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <GrGallery size={20} />
+            <GrProjects size={20} />
           </a>
           <a
             href="#projects"
