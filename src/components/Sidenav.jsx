@@ -1,5 +1,6 @@
 import { React, useState } from "react";
-import { AiOutlineMenuUnfold, AiOutlineHome } from "react-icons/ai";
+import { BiMenu } from "react-icons/bi";
+import { AiOutlineHome } from "react-icons/ai";
 import { GrContact, GrProjects } from "react-icons/gr";
 import { MdPerson3 } from "react-icons/md";
 
@@ -11,9 +12,10 @@ const Sidenav = () => {
   };
   return (
     <div>
-      <AiOutlineMenuUnfold
+      <BiMenu
+        size={25}
         onClick={handleNav}
-        className="absolute top-4 right-4 z-[99] md:hidden"
+        className="absolute top-4 right-4 md:hidden z-[99]"
       />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">

@@ -6,10 +6,7 @@ import mainpage from "../images/mainpage.jpg";
 const Main = () => {
   return (
     <div id="main">
-      <img
-        className="w-full h-screen object-cover object-left "
-        src={mainpage}
-      />
+      <img className="w-full h-screen object-cover" src={mainpage} />
       <div className="w-full h-screen absolute top-0 left-0 bg-black/50">
         <div className="max-width-[700px] m-auto h-full w-full flex flex flex-col justify-center items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-white text-center">
